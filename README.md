@@ -12,7 +12,7 @@
 ## 🛠️ How to Run
 
 1. Clone the repo  
-   `git clone https://github.com/yourusername/lead-trader-visualization.git`
+   `git clone https://github.com/Justoo254/Binance_lead_trader_visualizer.git`
 
 2. Install dependencies  
    `pip install -r requirements.txt`
