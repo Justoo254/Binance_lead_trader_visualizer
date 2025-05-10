@@ -3,12 +3,11 @@
 
 ## 📊 Example Insights
 
-- Identified where the trader used **averaging down**.
-- Tagged "close diff" rows to isolate realized trades.
-- Visualized time-based trade clusters.
-
----
-
+- Cleaned the three CSV data i.e the data containing OHLCV data from binance, data containing Lead traders position history and data containing the lead traders trade history
+- Perfomed EDA on the data like Sharpe ratios, Mean PnL per trade, Longest position duration, Drawdown analysis etc 
+- Visualizations e.g Line plot for Cumulative PnL, Histogram for PnL distribution
+-Plotting the 1 month OHLCV data of ONDOUSDT symbol on a candlestick chart
+-Overlaying entries and exits of ONDOUSDT trades on the candlestick chart to visualize strategy
 ## 🛠️ How to Run
 
 1. Clone the repo  
@@ -30,8 +29,8 @@ This project is for **educational purposes only**. Data is scraped from publicly
 
 ## 📌 Future Work
 
-- Add strategy labeling (e.g., martingale, grid).
-- Integrate profit/loss calculations.
+- Add plotly dashboard for switching into multiple time frames for better entry and exit visualization
+- Visualizing other symbols
 - Compare multiple lead traders.
 
 ---
@@ -39,4 +38,5 @@ This project is for **educational purposes only**. Data is scraped from publicly
 ## 📬 Contact
 
 If you find this useful or have ideas to expand it, feel free to reach out!
-
+email: justookipkoech@gmail.com
+Phone: +254727302216
