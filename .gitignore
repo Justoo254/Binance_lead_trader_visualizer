@@ -1,0 +1,18 @@
+# Ignore virtual environments
+test-env/
+
+# Ignore Python cache
+__pycache__/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+
+# Ignore data files
+*.csv
+*.parquet
+
+# Optional: ignore VS Code settings
+.vscode/

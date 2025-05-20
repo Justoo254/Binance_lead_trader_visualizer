@@ -8,6 +8,7 @@
 - Visualizations e.g Line plot for Cumulative PnL, Histogram for PnL distribution
 -Plotting the 1 month OHLCV data of ONDOUSDT symbol on a candlestick chart
 -Overlaying entries and exits of ONDOUSDT trades on the candlestick chart to visualize strategy
+-Added web analysis using plotly dash for non technical audience
 ## 🛠️ How to Run
 
 1. Clone the repo  
@@ -16,9 +17,10 @@
 2. Install dependencies  
    `pip install -r requirements.txt`
 
-3. Run the notebook  
-   Open `notebooks/Lead_Trader_Analysis.ipynb` in Jupyter Lab or VS Code.
-
+3. Run the notebooks 
+   Open `notebooks/*.ipynb` in Jupyter Lab or VS Code.
+4. Run Plotly app
+  Open 'app.py' and run python3 app.py on the terminal to see the analysis via web
 ---
 
 ## 🔍 Disclaimer
